@@ -1,0 +1,1 @@
+git@github.com:VayaCD/zakrivayuschiy-teg-f.git
