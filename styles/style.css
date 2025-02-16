@@ -164,42 +164,6 @@
   height: 31px;
 }
 
-.card__icon-button:hover .core {
-  fill: var(--heart-black);
-}
-
-.card__icon-button:hover .main-body {
-  transition-delay: 0.05s;
-  transition-duration: 0.3s;
-  fill: var(--heart-black);
-}
-
-.card__icon-button:not(:hover) .core {
-  transition-delay: 0.03s;
-  transition-duration: 0.3s;
-  fill: var(--heart-white);
-}
-
-.card__icon-button:not(:hover) .main-body {
-  transition-duration: 0.3s;
-  fill: var(--heart-white);
-}
-
-.card__icon-button:active .core {
-  fill: var(--heart-red);
-}
-
-.card__icon-button:active .main-body {
-  transition-delay: 0.05s;
-  transition-duration: 0.3s;
-  fill: var(--heart-red);
-}
-
-.card__icon-button:active .contour {
-  transition-delay: 0.06s;
-  fill: var(--heart-red);
-}
-
 .card__icon-button:focus {
   outline: none;
 }
@@ -280,6 +244,7 @@
   flex-direction: column;
   background-color: #fff;
   padding: 30px;
+  width: 359px;
 }
 
 ::backdrop {
@@ -294,6 +259,7 @@
 .button__text-window {
   text-transform: uppercase;
   line-height: 21px;
+  width: 234px;
 }
 
 .save__image {
@@ -386,8 +352,9 @@
   }
 
   .save__menu[open] {
-    padding-left: 41px;
-    padding-right: 35px;
+    padding-left: 38px;
+    padding-right: 38px;
+    width: 345px;
   }
 
   .save__button-window {
@@ -396,6 +363,11 @@
     padding-left: 114.5px;
     padding-right: 114.5px;
   }
+
+  .button__text-window {
+    width: 198px;
+  }
+
 }
 
 @supports (
